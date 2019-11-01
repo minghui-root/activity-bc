@@ -1,0 +1,14 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: activity
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+    static-path-pattern: /static/**
+app:
+  api:
+    url: http://47.75.70.22:8766
+  
